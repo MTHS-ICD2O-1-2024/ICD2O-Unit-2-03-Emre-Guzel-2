@@ -4,7 +4,9 @@
 // Created on: March 7  2025
 // This file contains the JS functions for index.html
 
-function calculateBtn() {
-  document.getElementById("perimeter").innerHTML = "<p>  Perimeter is:" + 2 * (5 + 3) + 'cm' + "</p>"
-  document.getElementById("area").innerHTML = "<p> Area is:" + 5 * 3 + 'cm² ' + "</p>"
+function streetAddress() {
+  // Setting the varibles
+  const streetNumber = document.getElementById("street-number").value
+  const streetName = document.getElementById("street-number").value
+  document.getElementById("address").innerHTML = streetNumber + streetName 
 }
