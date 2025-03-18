@@ -12,12 +12,12 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  background: darkred;
+  background: skyblue;
   margin-left: 2rem;
 }
 
 .dimatoins {
-  color: white;
+  color: black;
   font-weight: 900;
   font-style: bold;
   font-display: initial;
@@ -45,4 +45,8 @@ body {
   font-style: italic;
   font-display: initial;
   margin-bottom: 1rem;
+}
+.address{
+  font-size: .9rem;
+  margin-top: .5rem;
 }
