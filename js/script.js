@@ -8,5 +8,5 @@ function streetAddress() {
   // Setting the varibles
   const streetNumber = document.getElementById("street-number").value
   const streetName = document.getElementById("street-number").value
-  document.getElementById("address").innerHTML = streetNumber + streetName 
+  document.getElementById("address").innerHTML = "Your address is:" + streetNumber + "," + streetName
 }
